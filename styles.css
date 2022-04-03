@@ -1,0 +1,54 @@
+body {
+    background-color: #ee9b00;
+    
+}
+#logoPasta{
+    margin-bottom: 100px;
+}
+
+#barraSuperior {
+    background-color: #9b2226;
+        padding: 1px;
+        position: fixed;
+        width: 100%;
+        border-radius: 15px;
+    }
+    #barraSuperior ul{
+       list-style-type: none;
+       
+    }
+    #barraSuperior li{
+       display: inline;
+       text-align: center;
+       margin: 0 0 0 0;
+       font-family:'Cascadia Code', monospace; 
+ 
+    }
+    #barraSuperior li a {
+       padding: 2px 7px 2px 7px;
+       text-decoration: none;
+    }
+    #barraSuperior li a:hover{
+       background-color: #e09f3e;
+       color: #ffffff;
+    }
+    
+
+
+
+#tituloPastas {
+    color: #370617;
+    position: relative;
+    width: 80px;
+    margin-left: 6%;
+    left: -100px;
+    font-size: 25px;
+    font-family: 'Cascadia Code', monospace;
+}
+    
+
+#resultado{
+    position: relative;
+    font-family: 'Cascadia Code', monospace;
+
+}
