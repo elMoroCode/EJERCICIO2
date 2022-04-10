@@ -3,13 +3,16 @@ body {
     
 }
 #logoPasta{
-    margin-bottom: 100px;
+    position: relative;
+    top: 35px;   
+    margin-left: 50%;
+    
 }
 
 #barraSuperior {
     background-color: #9b2226;
         padding: 1px;
-        position: fixed;
+        position: relative;
         width: 100%;
         border-radius: 15px;
     }
@@ -21,7 +24,8 @@ body {
        display: inline;
        text-align: center;
        margin: 0 0 0 0;
-       font-family:'Cascadia Code', monospace; 
+       font-family:'Cascadia Code', monospace;
+       cursor: pointer; 
  
     }
     #barraSuperior li a {
@@ -35,12 +39,12 @@ body {
     
 
 
-
+/* FIjarse la posicion papa */
 #tituloPastas {
     color: #370617;
     position: relative;
     width: 80px;
-    margin-left: 6%;
+    margin-left: 120px;
     left: -100px;
     font-size: 25px;
     font-family: 'Cascadia Code', monospace;
