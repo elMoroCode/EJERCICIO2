@@ -12,23 +12,35 @@
     
     <body>
         <!-- Barra superior -->
-        <img src="./imagenes/spaghettis.png" id="logoPasta">
         <div id='barraSuperior'>
             <ul>
-                <li><a onclick="programa();">Ingresar Pasta</a></li>
-                <li><a href="#">Almacen</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a onclick="PopUp();" class="button">Ingresar Pasta</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Almacen</a></li>
+                <img src="./imagenes/spaghettis.png" id="logoPasta">
             </ul>
         </div>
         
         <!-- Titulos -->
         <h1 id="tituloPastas" >Almacen de Pasta</h1>
-
+        
+        
+        <!-- PopUp -->
+        <div id="popUpOverlay"></div>
+        <div id="popUpBox">
+            <div id="box">
+              <i class="fas fa-check-circle fa-5x"></i>        
+              <h1>Ingresar Pasta</h1>
+              <div id="closeModal"></div>
+            </div>
+        </div>
+        <button onclick="Alert.render('You look very pretty today.')" class="btn">Ingresar Pasta</button>
+        
+        
         <!-- Resultado del programa -->
         <p id="resultado"></p>
 
 
-        <script src="./index.js"></script>
+        <script src="./index2.js"></script>
         
         
     </body>
