@@ -1,16 +1,38 @@
-var Alert = new CustomAlert();
+function toggleTexto () {
 
-function CustomAlert(){
-  this.render = function(){
-      
-      let popUpBox = document.getElementById('popUpBox');
-      popUpBox.style.display = "block";
-      
-      document.getElementById('closeModal').innerHTML = '<button onclick="Alert.ok()">OK</button>';
+  let elemento = document.getElementById("popUpBox")
+
+    if (elemento.style.display = "none"){
+      elemento.style.display = "block";
+    
+    } 
+    
+    
+
+   
+    
+}
+  /* if (elemento == style.display == none){
+    elemento.style.display = block;
+  } */
+    
+    
+
+
+  /* function toggleTexto () {
+
+  let elemento = document.getElementById("popUpBox")
+
+
+  if(elemento.className == "mostrado"){
+    elemento.classList.replace('mostrado','noMostrado')
+    
+  } else {
+    elemento.classList.replace('noMostrado','mostrado')
   }
-  
-this.ok = function(){
-  document.getElementById('popUpBox').style.display = "none";
-  document.getElementById('popUpOverlay').style.display = "none";
-}
-}
+
+  } */
+
+
+
+

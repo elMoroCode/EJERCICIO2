@@ -55,29 +55,10 @@ body {
     font-family: 'Cascadia Code', monospace;
 
 }
-/* FRUSTRACION */
-/* .btn{
-    position: absolute;
-    left: 7rem;
-    transform: translate(-50%, -50%);
-    background: #f2cc8f;
-    font-size: 20px;
-    color: white;
-    padding: 10px 30px;
-    cursor: pointer;
-  }
-  
-  #popUpBox{
-    width: 500px;
-    overflow: hidden;
-    background: #e07a5f;
-    box-shadow: 0 0 10px black;
-    border-radius: 10px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-    padding: 10px;
-    text-align: center;
+
+
+
+
+.noMostrado {
     display: none;
-    left:10rem;
-  } */
+} 

@@ -14,7 +14,7 @@
         <!-- Barra superior -->
         <div id='barraSuperior'>
             <ul>
-                <li><a onclick="PopUp();" class="button">Ingresar Pasta</a></li>
+                <li><a onclick="toggleTexto();" class="button">Ingresar Pasta</a></li>
                 <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Almacen</a></li>
                 <img src="./imagenes/spaghettis.png" id="logoPasta">
             </ul>
@@ -23,18 +23,13 @@
         <!-- Titulos -->
         <h1 id="tituloPastas" >Almacen de Pasta</h1>
         
+        <button onclick="toggleTexto()" class="btn">Togglear pasta</button>
         
         <!-- PopUp -->
-        <div id="popUpOverlay"></div>
-        <div id="popUpBox">
-            <div id="box">
-              <i class="fas fa-check-circle fa-5x"></i>        
-              <h1>Ingresar Pasta</h1>
-              <div id="closeModal"></div>
-            </div>
+        <div class="noMostrado" id="popUpBox">   
+            <p>CARLONCHO</p>
         </div>
-        <button onclick="Alert.render('You look very pretty today.')" class="btn">Ingresar Pasta</button>
-        
+
         
         <!-- Resultado del programa -->
         <p id="resultado"></p>
